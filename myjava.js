@@ -14,3 +14,8 @@
 
 let myid = document.getElementById("myid");
 myid.innerHTML = "This is Gazi Md Parveg"
+
+function clickme(){
+    document.getElementById("date").innerHTML= Date();
+
+}
