@@ -43,3 +43,12 @@ lan.forEach((language) => {
 
 memu.appendChild(feg);
 
+
+// repelece element
+
+let repic = document.getElementById('repic');
+let  h2 = document.createElement('h2');
+      h2.textContent = 'o1';
+
+repic.replaceChild(h2,repic.firstElementChild);
+repic.removeChild(h2,repic.lastElementChild);
