@@ -26,6 +26,8 @@ let div = document.createElement("div");
 div.id="divId";
 div.className= "divclass";
 div.innerHTML = "<p>This is cerating div tag in java</p>"
+div.style.color = 'red';
+div.classList.add('myclass');
 document.body.appendChild(div);
 
 // create text tag

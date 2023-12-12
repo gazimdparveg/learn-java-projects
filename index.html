@@ -9,6 +9,8 @@
     <h1 id="myid"> This is gazi</h1>
     <button onclick="alert('This is alert message')">Alert message</button>
     <button onclick="clickme()">Check the time and date</button>
+    <button id="btn">Click me</button>
+    <button id="domtow">Dow tow handelar</button>
     <p id="date"></p>
    <ul id="memu"></ul>
 
@@ -17,7 +19,62 @@
     <h2>tow</h2>
     <h2>three</h2>
    </div>
-</body>
 
+   <input id="inputte" type="text">
+   <p id="keyp"></p>
+
+<h2> Registion From</h2>
+<form action="" id="form" method="post">
+  <div>
+    <label for="username">UserName</label> 
+    <input type="text" name="username" placeholder="Enter Your UserName" id="username">
+    <span class="sname"></span>
+  </div><br>
+  <div>
+    <label for="useremail">useremail</label> 
+    <input type="email" name="useremail" placeholder="Enter Your useremail" id="useremail">
+    <span class="suseremail"></span>
+  </div>
+  </div><br>
+  <div>
+    <label for="passwore">Password</label> 
+    <input type="password" name="passwore" placeholder="Enter Your Password" id="password">
+    <span class="spasswore"></span>
+  </div>
+  <div><br>
+    <label for="confrmpassword">confrm Password</label> 
+    <input type="password" name="confarmpasswore" placeholder="Enter Your confrm Password" id="confrmpassword">
+    <span class="confrmpassword"></span>
+  </div>
+  <div><br>
+     
+    <input type="submit" name="submit" id="submit">
+ 
+  </div>
+
+</form>
+
+
+
+</body>
+<!-- <script>
+ document.addEventListener("DOMContentLoaded", (e) => {
+    alert("This is Dom Content Loaded");
+ });
+
+ addEventListener("load",()=>{
+    alert("Content load");
+ });
+
+ addEventListener("beforeunload", (a)=> {
+    a.preventDefault();
+    a.returnValue="";
+ });
+
+ addEventListener("unload",(s) =>{
+    alert('unload event');
+ })
+
+</script> -->
 <script src="myjava.js"></script>
 </html>

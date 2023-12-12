@@ -52,3 +52,38 @@ let  h2 = document.createElement('h2');
 
 repic.replaceChild(h2,repic.firstElementChild);
 repic.removeChild(h2,repic.lastElementChild);
+
+
+// click event 
+
+let eventt = document.querySelector("#btn");
+eventt.onclick =  function(){
+   alert(" This  is function event");
+}
+
+
+// dom 2 handelar 
+
+let domtow = document.querySelector("#domtow");
+domtow.addEventListener("click", function(){
+   alert("This is dom tow event listener");
+});
+
+let inputte = document.querySelector("#inputte");
+
+inputte.addEventListener("focus", (y)=>{
+   y.target.style.color="red",
+   y.target.style.background="green";
+
+})
+
+inputte.addEventListener("blur", (y)=>{
+   y.target.style.color="white",
+   y.target.style.background="red";
+})
+
+
+inputte.addEventListener("keypress", (x)=> {
+    let keyp = document.querySelector("#keyp");
+    keyp.textContent = x.key;
+})
