@@ -87,3 +87,6 @@ inputte.addEventListener("keypress", (x)=> {
     let keyp = document.querySelector("#keyp");
     keyp.textContent = x.key;
 })
+
+// form 
+
